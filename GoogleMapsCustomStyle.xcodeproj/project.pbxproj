@@ -7,7 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6950DB9823DA85B6008AF855 /* DetailStartupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6950DB9723DA85B6008AF855 /* DetailStartupVC.swift */; };
+		698EB20C23D838E800FA9CAE /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698EB20B23D838E800FA9CAE /* WelcomeViewController.swift */; };
+		698EB20F23D887CE00FA9CAE /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698EB20E23D887CD00FA9CAE /* SignInViewController.swift */; };
 		698F97C423D705BA00DB8571 /* MapNight.json in Resources */ = {isa = PBXBuildFile; fileRef = 698F97C323D705BA00DB8571 /* MapNight.json */; };
+		6990CCCF23D9E53F003BD2A2 /* CustomMarkerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6990CCCE23D9E53F003BD2A2 /* CustomMarkerView.swift */; };
+		6990CCD123D9F4D2003BD2A2 /* StartupPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6990CCD023D9F4D2003BD2A2 /* StartupPreviewView.swift */; };
 		69E6AE7923D59E0800C82811 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E6AE7823D59E0800C82811 /* AppDelegate.swift */; };
 		69E6AE7B23D59E0800C82811 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E6AE7A23D59E0800C82811 /* SceneDelegate.swift */; };
 		69E6AE7F23D59E0F00C82811 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69E6AE7E23D59E0F00C82811 /* Assets.xcassets */; };
@@ -19,7 +24,12 @@
 
 /* Begin PBXFileReference section */
 		355EC7CCF8E7A99090297927 /* Pods-GoogleMapsCustomStyle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleMapsCustomStyle.release.xcconfig"; path = "Target Support Files/Pods-GoogleMapsCustomStyle/Pods-GoogleMapsCustomStyle.release.xcconfig"; sourceTree = "<group>"; };
+		6950DB9723DA85B6008AF855 /* DetailStartupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailStartupVC.swift; sourceTree = "<group>"; };
+		698EB20B23D838E800FA9CAE /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		698EB20E23D887CD00FA9CAE /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		698F97C323D705BA00DB8571 /* MapNight.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MapNight.json; sourceTree = "<group>"; };
+		6990CCCE23D9E53F003BD2A2 /* CustomMarkerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMarkerView.swift; sourceTree = "<group>"; };
+		6990CCD023D9F4D2003BD2A2 /* StartupPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartupPreviewView.swift; sourceTree = "<group>"; };
 		69E6AE7523D59E0800C82811 /* GoogleMapsCustomStyle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleMapsCustomStyle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69E6AE7823D59E0800C82811 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		69E6AE7A23D59E0800C82811 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,6 +63,15 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		698EB20D23D8394800FA9CAE /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				698EB20B23D838E800FA9CAE /* WelcomeViewController.swift */,
+				698EB20E23D887CD00FA9CAE /* SignInViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
 		69E6AE6C23D59E0800C82811 = {
 			isa = PBXGroup;
 			children = (
@@ -74,6 +93,7 @@
 		69E6AE7723D59E0800C82811 /* GoogleMapsCustomStyle */ = {
 			isa = PBXGroup;
 			children = (
+				698EB20D23D8394800FA9CAE /* Login */,
 				69E6AE7823D59E0800C82811 /* AppDelegate.swift */,
 				69E6AE7A23D59E0800C82811 /* SceneDelegate.swift */,
 				69E6AE7E23D59E0F00C82811 /* Assets.xcassets */,
@@ -82,6 +102,9 @@
 				69E6AE8C23D5A14300C82811 /* MainViewController.swift */,
 				69E6AE8E23D6BEF600C82811 /* MapLight.json */,
 				698F97C323D705BA00DB8571 /* MapNight.json */,
+				6990CCCE23D9E53F003BD2A2 /* CustomMarkerView.swift */,
+				6990CCD023D9F4D2003BD2A2 /* StartupPreviewView.swift */,
+				6950DB9723DA85B6008AF855 /* DetailStartupVC.swift */,
 			);
 			path = GoogleMapsCustomStyle;
 			sourceTree = "<group>";
@@ -106,6 +129,7 @@
 				69E6AE7223D59E0800C82811 /* Frameworks */,
 				69E6AE7323D59E0800C82811 /* Resources */,
 				DE71E9BB8ACDA910859FDAAC /* [CP] Copy Pods Resources */,
+				78DBDD8A1B13430F0CCD6B97 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -164,6 +188,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		78DBDD8A1B13430F0CCD6B97 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoogleMapsCustomStyle/Pods-GoogleMapsCustomStyle-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoogleMapsCustomStyle/Pods-GoogleMapsCustomStyle-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GoogleMapsCustomStyle/Pods-GoogleMapsCustomStyle-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		D146AA43AEAA01660C9E1D42 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -211,8 +252,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				69E6AE7923D59E0800C82811 /* AppDelegate.swift in Sources */,
+				698EB20C23D838E800FA9CAE /* WelcomeViewController.swift in Sources */,
 				69E6AE7B23D59E0800C82811 /* SceneDelegate.swift in Sources */,
+				698EB20F23D887CE00FA9CAE /* SignInViewController.swift in Sources */,
 				69E6AE8D23D5A14300C82811 /* MainViewController.swift in Sources */,
+				6990CCD123D9F4D2003BD2A2 /* StartupPreviewView.swift in Sources */,
+				6990CCCF23D9E53F003BD2A2 /* CustomMarkerView.swift in Sources */,
+				6950DB9823DA85B6008AF855 /* DetailStartupVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,6 +395,7 @@
 			baseConfigurationReference = A2848BA6C1C4489B381CBA72 /* Pods-GoogleMapsCustomStyle.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = VYK2652W29;
@@ -361,6 +408,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.pesanmerpati.GoogleMapsCustomStyle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -371,6 +419,7 @@
 			baseConfigurationReference = 355EC7CCF8E7A99090297927 /* Pods-GoogleMapsCustomStyle.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = VYK2652W29;
@@ -383,6 +432,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.pesanmerpati.GoogleMapsCustomStyle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

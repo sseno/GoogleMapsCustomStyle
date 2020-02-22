@@ -6,20 +6,24 @@ PODS:
     - GoogleMaps/Base
   - GooglePlaces (3.7.0):
     - GoogleMaps/Base (= 3.7.0)
+  - LBTATools (1.0.12)
 
 DEPENDENCIES:
   - GoogleMaps
   - GooglePlaces
+  - LBTATools
 
 SPEC REPOS:
   trunk:
     - GoogleMaps
     - GooglePlaces
+    - LBTATools
 
 SPEC CHECKSUMS:
   GoogleMaps: 55da829c68aa931f3ae982b9e341cc2f3d89c587
   GooglePlaces: a62077320f9d64239245af63aa1aa136393ebeb6
+  LBTATools: 389a901a01b9a56bea5682c40cd6e23530f40015
 
-PODFILE CHECKSUM: 77fe6a6211f2430a961c6c0500b8eb16eb4ed78c
+PODFILE CHECKSUM: 4cd1e51ca3063f5c87c7b449106b824c5d2d058a
 
 COCOAPODS: 1.8.4

@@ -7,6 +7,7 @@ target 'GoogleMapsCustomStyle' do
 
   # Pods for GoogleMapsCustomStyle
   
+  pod 'LBTATools'
   pod 'GoogleMaps'
   pod 'GooglePlaces'
 
